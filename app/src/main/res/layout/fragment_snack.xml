@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/black">\
+    android:background="@color/black">
 
     <ImageView
         android:id="@+id/imageView"
@@ -13,4 +13,36 @@
         android:orientation="horizontal"
         android:src="@drawable/snack"/>
 
-</LinearLayout>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:checkedButton="@+id/radioButton1">
+
+        <RadioButton
+            android:text="Ice Cream"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton1"
+            android:layout_weight="1"
+            style="@style/MyRadioButton" />
+
+        <RadioButton
+            android:text="Chocolate Cake"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton2"
+            android:layout_weight="1"
+            style="@style/MyRadioButton" />
+
+        <RadioButton
+            android:text="Apple Pie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton3"
+            android:layout_weight="1"
+            style="@style/MyRadioButton" />
+
+    </RadioGroup>
+
+</RelativeLayout>
