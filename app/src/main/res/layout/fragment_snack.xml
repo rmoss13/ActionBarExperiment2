@@ -20,7 +20,7 @@
         android:checkedButton="@+id/radioButton1">
 
         <RadioButton
-            android:text="Ice Cream"
+            android:text="@string/radio_tab3_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/radioButton1"
@@ -28,7 +28,7 @@
             style="@style/MyRadioButton" />
 
         <RadioButton
-            android:text="Chocolate Cake"
+            android:text="@string/radio_tab3_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/radioButton2"
@@ -36,7 +36,7 @@
             style="@style/MyRadioButton" />
 
         <RadioButton
-            android:text="Apple Pie"
+            android:text="@string/radio_tab3_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/radioButton3"
@@ -44,5 +44,14 @@
             style="@style/MyRadioButton" />
 
     </RadioGroup>
+
+    <TextView
+        android:text="@string/radio_tab1_value1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        style="@style/MyTextView"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="400dp"/>
 
 </RelativeLayout>

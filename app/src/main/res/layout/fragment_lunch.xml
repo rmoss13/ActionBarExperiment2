@@ -20,7 +20,7 @@
         android:checkedButton="@+id/radioButton1">
 
         <RadioButton
-            android:text="Hamburger"
+            android:text="@string/radio_tab2_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/radioButton1"
@@ -28,7 +28,7 @@
             style="@style/MyRadioButton" />
 
         <RadioButton
-            android:text="Sausage and Peppers"
+            android:text="@string/radio_tab2_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/radioButton2"
@@ -36,7 +36,7 @@
             style="@style/MyRadioButton" />
 
         <RadioButton
-            android:text="Ravioli"
+            android:text="@string/radio_tab2_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/radioButton3"
