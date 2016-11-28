@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ActionBar Experiment</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="ui_tabname_appetizer">appetizer</string>
+    <string name="ui_tabname_entree">entree</string>
+    <string name="ui_tabname_dessert">dessert</string>
+    <string name="ui_tabname_dinner">dinner</string>
+    <string name="title_activity_test">Test</string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>
